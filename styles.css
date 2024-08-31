@@ -35,7 +35,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    backdrop-filter: brightness(30%);
+
 }
 
 .breadcrump {
@@ -61,6 +61,11 @@ span:hover {
     margin-right: 15%;
     margin-left: 15%;
 
+}
+
+.card {
+    width: auto;
+    height: 420px;
 }
 
 .list-inline {
