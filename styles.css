@@ -29,13 +29,33 @@ body {
 }
 
 .main {
-    background: url('images/pexels-asadphoto-1266831.jpg');
+    position: relative;
     width: 100%;
     height: 100vh;
+    overflow: hidden;
+}
+
+.main::before {
+    content: "";
+    background: url('images/pexels-asadphoto-1266831.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    filter: blur(1px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
 
+.main .content {
+    position: relative;
+    z-index: 1;
+    /* Brings the content in front of the blurred image */
+    text-align: center;
+    padding: 20px;
 }
 
 .breadcrump {
