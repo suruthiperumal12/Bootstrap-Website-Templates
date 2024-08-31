@@ -1,0 +1,98 @@
+body {
+    font-family: "Poppins", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar {
+    background: linear-gradient(to right, #00bcd4, #4caf50);
+
+}
+
+.nav-link {
+    font-family: "Poppins", system-ui;
+    padding: 5px;
+    color: white;
+    transition: white 0.1s;
+    text-decoration: none;
+
+}
+
+.nav-link:hover {
+    font-weight: bold;
+    border-bottom: 5px solid white;
+    border-radius: 15px;
+}
+
+.dropdown {
+    font-family: "Poppins", system-ui;
+}
+
+.main {
+    background: url('images/pexels-asadphoto-1266831.jpg');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    backdrop-filter: brightness(30%);
+}
+
+.breadcrump {
+    font-family: "Poppins", system-ui;
+
+}
+
+.custom-span {
+    font-weight: bold;
+    font-style: normal;
+    border-radius: 10px;
+
+}
+
+span:hover {
+    background-color: white;
+    color: black;
+    font-weight: normal;
+}
+
+.custom-p {
+    padding: 5px;
+    margin-right: 20%;
+    margin-left: 20%;
+
+}
+
+.list-inline {
+    font-family: "Poppins", system-ui;
+}
+
+.package {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-family: "Poppins", system-ui;
+
+}
+
+.package button {
+    border-radius: 50%;
+}
+
+footer {
+    background-image: url('images/sea-1027983_1280.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 30vh
+}
+
+footer h1 {
+    color: white;
+}
+
+footer p {
+    color: white;
+}
