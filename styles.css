@@ -1,12 +1,12 @@
 body {
     font-family: "Poppins", system-ui;
-    font-weight: 400;
+    font-weight: bold;
     font-style: normal;
 }
 
 .heading_one {
     font-family: "Niconne", cursive;
-    font-weight: 400;
+    font-weight: bold;
     font-style: normal;
 }
 
